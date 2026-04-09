@@ -1,5 +1,32 @@
 <<<<<<< HEAD
-# Interactive-Calendar-Component
+
+
+# Interactive Wall Calendar Component
+
+A polished, interactive Web Component built with **Next.js** and **React**, balancing aesthetics and functionality, designed for the Frontend Engineering Challenge.
+
+## ✨ Features & Architecture
+
+This component satisfies all baseline challenge requirements and includes a few "Stand Out" creative additions:
+
+*   **Wall Calendar Aesthetic:** Uses layout, spacing, and CSS drop-shadows alongside a prominent image (`hero-image.png`) to emulate the physical hanging presence of a spiral-bound wall calendar.
+*   **Day Range Selector:** Users can click a start and end date to select a range smoothly. Hovering across dates highlights the span dynamically using CSS properties, and days within the bounds turn light blue while start/end points stand out solid.
+*   **Integrated Notes Section:** A tightly responsive note section handles input tied exactly to a user's selection (Default Month notes, Single-Day notes, or Date Range notes). 
+*   **Strictly Frontend:** Adhering strictly to constraints, note data is persisted persistently yet gracefully entirely client-side using `localStorage`. No backend database is required.
+*   **Fully Responsive:** Designed meticulously to show a split side-by-side view on desktop monitors, scaling down via dynamic CSS transform values on smaller mobile devices to preserve advanced flip animations without clunky layout reflows.
+
+**Creative Liberty (Stand Out Features):**
+*   **Holographic 3D Tilt:** The hero text box tracks the mouse cursor via `framer-motion`, resulting in a dynamic physical 3D tilt effect across the UI element, complete with responsive digital light glare.
+*   **180-Degree Page Flip:** Pressing `Next` or `Previous` fires a spring-physics 180° page flip animation, literally rotating the calendar out of your way and dropping the new month into view.
+*   **Continuous Particle Snowfall:** A deterministic animated snowfall drifts down inside the Hero Image perimeter.
+
+## 🛠 Tech Stack
+*   **Next.js (App Router)** - React framework
+*   **TypeScript** - Type safety
+*   **Framer Motion** - Interaction animations and 3D effects
+*   **Lucide React** - UI Icons
+*   **Vanilla CSS / Inline styles** - Core styling relying on custom hooks and mathematical transforms
+
 =======
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
