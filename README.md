@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-
 # Interactive Wall Calendar Component
 
 A polished, interactive Web Component built with **Next.js** and **React**, balancing aesthetics and functionality, designed for the Frontend Engineering Challenge.
