@@ -2,7 +2,7 @@
 
 A polished, interactive Web Component built with **Next.js** and **React**, balancing aesthetics and functionality, designed for the Frontend Engineering Challenge.
 
-## ✨ Features & Architecture
+## Features & Architecture
 
 This component satisfies all baseline challenge requirements and includes a few "Stand Out" creative additions:
 
@@ -17,7 +17,7 @@ This component satisfies all baseline challenge requirements and includes a few 
 *   **180-Degree Page Flip:** Pressing `Next` or `Previous` fires a spring-physics 180° page flip animation, literally rotating the calendar out of your way and dropping the new month into view.
 *   **Continuous Particle Snowfall:** A deterministic animated snowfall drifts down inside the Hero Image perimeter.
 
-## 🛠 Tech Stack
+## Tech Stack
 *   **Next.js (App Router)** - React framework
 *   **TypeScript** - Type safety
 *   **Framer Motion** - Interaction animations and 3D effects
